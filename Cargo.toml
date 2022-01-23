@@ -1,0 +1,16 @@
+[package]
+name = "projections"
+version = "0.1.0"
+authors = [ "Filip Szczerek <ga.software@yahoo.com>" ]
+edition = "2018"
+
+[dependencies]
+cgmath = "0.17.0"
+clipboard = "0.5"
+glium = { version = "0.30.2", default-features = true }
+image = "0.23.14"
+imgui = { git = "https://github.com/imgui-rs/imgui-rs.git", rev = "f43e33c15da7aeaa56bd9201f24aeac7dca61890", features = ["docking", "tables-api"] }
+imgui-glium-renderer = { git = "https://github.com/imgui-rs/imgui-rs.git", rev = "f43e33c15da7aeaa56bd9201f24aeac7dca61890" }
+imgui-winit-support = { git = "https://github.com/imgui-rs/imgui-rs.git", rev = "f43e33c15da7aeaa56bd9201f24aeac7dca61890" }
+retain_mut = "0.1.2"
+shapefile = "0.3.0"
